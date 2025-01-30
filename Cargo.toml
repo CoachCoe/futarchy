@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "bin/node",
+    "pallets/futarchy",
+    "runtime",
+    "primitives"
+]
+
+[profile.release]
+overflow-checks = true
